@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Icona adattiva "Lavagna" - conversione fedele di App/icon.svg (512x512).
+  L'artwork mantiene il sistema di coordinate originale e viene ingrandito
+  (scala 0.122, centro 54,54) per stare nella safe zone 72dp dell'icona adattiva.
+  Il filtro drop-shadow dell'SVG non e' riproducibile in un VectorDrawable
+  (le icone adattive ricevono ombra dal sistema).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:scaleX="0.122"
+        android:scaleY="0.122"
+        android:translateX="22.768"
+        android:translateY="22.219">
+
+        <!-- Supporto a cavalletto -->
+        <path
+            android:pathData="M128,380 L96,450 M384,380 L416,450"
+            android:strokeColor="#543113"
+            android:strokeWidth="14"
+            android:strokeLineCap="round" />
+
+        <!-- Cornice di legno -->
+        <path android:pathData="M72,64 H440 A16,16 0 0 1 456,80 V348 A16,16 0 0 1 440,364 H72 A16,16 0 0 1 56,348 V80 A16,16 0 0 1 72,64 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="56"
+                    android:startY="64"
+                    android:endX="456"
+                    android:endY="364">
+                    <item android:offset="0.0" android:color="#FF8B5A2B" />
+                    <item android:offset="0.5" android:color="#FF6F421B" />
+                    <item android:offset="1.0" android:color="#FF543113" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Superficie lavagna (ardesia scura) -->
+        <path android:pathData="M84,84 H428 A8,8 0 0 1 436,92 V336 A8,8 0 0 1 428,344 H84 A8,8 0 0 1 76,336 V92 A8,8 0 0 1 84,84 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="256"
+                    android:startY="84"
+                    android:endX="256"
+                    android:endY="344">
+                    <item android:offset="0.0" android:color="#FF2A3439" />
+                    <item android:offset="1.0" android:color="#FF1E2528" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Lampadina con filamento a U pulito -->
+        <path
+            android:pathData="M135,170 C135,142 185,142 185,170 C185,186 173,194 172,205 L148,205 C147,194 135,186 135,170 Z"
+            android:strokeColor="#F8FAFC"
+            android:strokeWidth="4.5"
+            android:strokeAlpha="0.9" />
+        <path
+            android:pathData="M151,213 L169,213 M153,220 L167,220"
+            android:strokeColor="#F8FAFC"
+            android:strokeWidth="4"
+            android:strokeAlpha="0.9" />
+        <path
+            android:pathData="M157,226 C157,228 163,228 163,226"
+            android:strokeColor="#F8FAFC"
+            android:strokeWidth="3"
+            android:strokeAlpha="0.9" />
+        <path
+            android:pathData="M154,205 L154,180 C154,170 166,170 166,180 L166,205"
+            android:strokeColor="#F8FAFC"
+            android:strokeWidth="2.5"
+            android:strokeAlpha="0.75" />
+
+        <!-- Raggi luminosi -->
+        <path
+            android:pathData="M160,130 L160,122 M190,142 L197,135 M130,142 L123,135 M200,170 L208,170 M120,170 L112,170"
+            android:strokeColor="#F8FAFC"
+            android:strokeWidth="3.5"
+            android:strokeAlpha="0.8"
+            android:strokeLineCap="round" />
+
+        <!-- Grafico di crescita -->
+        <path
+            android:pathData="M235,225 L265,190 L295,205 L335,150"
+            android:strokeColor="#F8FAFC"
+            android:strokeWidth="5"
+            android:strokeAlpha="0.95"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <path
+            android:pathData="M320,150 L335,150 L335,165"
+            android:strokeColor="#F8FAFC"
+            android:strokeWidth="5"
+            android:strokeAlpha="0.95"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <path
+            android:pathData="M225,235 L345,235"
+            android:strokeColor="#F8FAFC"
+            android:strokeWidth="2"
+            android:strokeAlpha="0.35" />
+
+        <!-- Formula matematica (E = mc2, testo SVG convertito in tracciati) -->
+        <path
+            android:pathData="M134.02,291.04H145.18V287.91H138.16V284.93H144.76V281.8H138.16V278.13H145.42V275H134.02Z"
+            android:fillColor="#F8FAFC"
+            android:fillAlpha="0.85" />
+        <path
+            android:pathData="M157.02,285.6H170.79V283.08H157.02ZM157.02,280.71H170.79V278.17H157.02Z"
+            android:fillColor="#F8FAFC"
+            android:fillAlpha="0.85" />
+        <path
+            android:pathData="M193.78,285.03Q194.51,286.15 195.51,286.74Q196.52,287.32 197.72,287.32Q199.79,287.32 200.88,286.04Q201.96,284.76 201.96,282.33V275H198.1V281.27Q198.11,281.41 198.11,281.56Q198.12,281.71 198.12,281.99Q198.12,283.27 197.74,283.85Q197.37,284.42 196.53,284.42Q195.43,284.42 194.84,283.52Q194.24,282.62 194.22,280.91V275H190.35V281.27Q190.35,283.27 190.01,283.85Q189.66,284.42 188.78,284.42Q187.68,284.42 187.08,283.51Q186.47,282.61 186.47,280.92V275H182.61V287.03H186.47V285.27Q187.18,286.29 188.1,286.81Q189.02,287.32 190.13,287.32Q191.37,287.32 192.33,286.72Q193.28,286.12 193.78,285.03Z"
+            android:fillColor="#F8FAFC"
+            android:fillAlpha="0.85" />
+        <path
+            android:pathData="M215.27,286.66V283.52Q214.49,284.06 213.7,284.31Q212.91,284.57 212.06,284.57Q210.45,284.57 209.55,283.63Q208.66,282.69 208.66,281Q208.66,279.32 209.55,278.38Q210.45,277.44 212.06,277.44Q212.96,277.44 213.77,277.71Q214.59,277.98 215.27,278.5V275.35Q214.37,275.02 213.44,274.85Q212.51,274.69 211.58,274.69Q208.32,274.69 206.49,276.36Q204.65,278.03 204.65,281Q204.65,283.98 206.49,285.65Q208.32,287.32 211.58,287.32Q212.52,287.32 213.44,287.15Q214.36,286.99 215.27,286.66Z"
+            android:fillColor="#F8FAFC"
+            android:fillAlpha="0.85" />
+        <path
+            android:pathData="M221.17,283.98H225.15V282.18H217.92V283.82L221.28,286.68Q221.93,287.25 222.21,287.68Q222.49,288.11 222.49,288.54Q222.49,289.07 222.1,289.41Q221.71,289.74 221.07,289.74Q220.41,289.74 219.65,289.5Q218.88,289.25 217.98,288.75V290.75Q218.92,291.04 219.79,291.18Q220.67,291.33 221.47,291.33Q223.17,291.33 224.14,290.64Q225.1,289.94 225.1,288.75Q225.1,287.98 224.72,287.33Q224.34,286.68 223.25,285.75Z"
+            android:fillColor="#F8FAFC"
+            android:fillAlpha="0.85" />
+
+        <!-- Ripiano gessarola -->
+        <path android:pathData="M94,352 H418 A4,4 0 0 1 422,356 V360 A4,4 0 0 1 418,364 H94 A4,4 0 0 1 90,360 V356 A4,4 0 0 1 94,352 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="256"
+                    android:startY="352"
+                    android:endX="256"
+                    android:endY="364">
+                    <item android:offset="0.0" android:color="#FFE2E8F0" />
+                    <item android:offset="1.0" android:color="#FFCBD5E1" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Gessetto e Cancellino -->
+        <path android:pathData="M292,347 H324 A2,2 0 0 1 326,349 V352 A2,2 0 0 1 324,354 H292 A2,2 0 0 1 290,352 V349 A2,2 0 0 1 292,347 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="290"
+                    android:startY="347"
+                    android:endX="326"
+                    android:endY="354">
+                    <item android:offset="0.0" android:color="#FFFFFFFF" />
+                    <item android:offset="1.0" android:color="#FFF1F5F9" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <path
+            android:pathData="M143,343 H181 A3,3 0 0 1 184,346 V351 A3,3 0 0 1 181,354 H143 A3,3 0 0 1 140,351 V346 A3,3 0 0 1 143,343 Z"
+            android:fillColor="#334155" />
+        <path
+            android:pathData="M141,350 H183 A1,1 0 0 1 184,351 V353 A1,1 0 0 1 183,354 H141 A1,1 0 0 1 140,353 V351 A1,1 0 0 1 141,350 Z"
+            android:fillColor="#94A3B8" />
+    </group>
+</vector>
